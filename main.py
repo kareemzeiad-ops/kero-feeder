@@ -7,7 +7,7 @@ st.set_page_config(page_title="Kero Feeder", page_icon="⚡")
 st.title("🤖 مساعد Kero الذكي")
 
 # إعداد المفتاح (سيعمل بمجرد وضعه في إعدادات الاستضافة)
-API_KEY = os.getenv("GEMINI_API_KEY")
+API_KEY = os.getenv("AIzaSyDNwenOdoeIbiZH8GVnbagTF40TjYlJkv0")
 
 if API_KEY:
     genai.configure(api_key=API_KEY)
